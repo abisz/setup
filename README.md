@@ -12,6 +12,10 @@ sh setup.sh
 ### Installation
 * git
 * vim
+* zsh + oh-my-zsh
 
 ### Other
 * setup git credentials globally
+
+## Todo
+* starter script for missing git (wget script from github)
