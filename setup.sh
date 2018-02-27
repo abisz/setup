@@ -17,6 +17,12 @@ sudo apt-get install zsh -y
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+# Copy scripts to /usr/local/bin
+sudo cp -R ./scripts/. /usr/local/bin
+
+# Copy aliases to oh-my-zsh/custom
+cp ./aliases.zsh $ZSH/custom
+
 sudo apt-get install vim -y
 
 
