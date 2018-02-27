@@ -23,6 +23,10 @@ sudo cp -R ./scripts/. /usr/local/bin
 # Copy aliases to oh-my-zsh/custom
 cp ./aliases.zsh $ZSH/custom
 
+# Create SSH key
+if [ ! -f ~/.ssh/id_rsa ]; then
+	ssh-keygen -t rsa -b 4096 -C "$email" -f ~/.ssh/id_rsa -N ""
+fi
 sudo apt-get install vim -y
 
 

@@ -16,6 +16,7 @@ sh setup.sh
 
 ### Other
 * setup git credentials globally
+* create ssh keys
 
 ## Todo
 * starter script for missing git (wget script from github)
